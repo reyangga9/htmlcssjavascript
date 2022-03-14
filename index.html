@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>
+            --- Pemilihan Karakter Terbaik ---
+        </h1>
+        <p>Siapa karakter Progate favorit Anda?</p>
+
+        <div class="container__karakter">
+            <div class="card">
+                <img src="/images/baby_ben.png" alt="">
+
+                <button>Baby Ben</button>
+            </div>
+            <div class="card">
+                <img src="/images/ninja_ken.png" alt="">
+                <button>Ninja Ken</button>
+            </div>
+            <div class="card">
+                <img src="/images/guru_domba.png" alt="">
+                <button>Guru Domba</button>
+            </div>
+        </div>
+
+        <div class="container__button">
+            <div class="text-area__alasan">
+                <p>Alasan</p>
+                <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+            </div>
+
+            <button type="submit">Kumpulkan</button>
+
+            <div class="text-area__hasil">
+                <p>Hasil</p>
+                <input>
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        const btn = document.querySelector("button");
+        btn.addEventListener('click', function() {
+            btn.classList.toggle(".active")
+
+
+        })
+    </script>
+</body>
+
+</html>

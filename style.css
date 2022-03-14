@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.main {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.main p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.container__karakter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.card button {
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 4;
+    box-shadow: 3px 4px 3px rgba(175, 170, 170, 0.8);
+    color: #fff;
+    background-color: rgb(38, 185, 63);
+}
+
+.card button:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+    left: 3px
+}
+
+.container__button {
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+    padding: 50px;
+}
+
+.container__button textarea {
+    font-size: 30px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.container__button button {
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 4;
+    box-shadow: 3px 4px 3px rgba(175, 170, 170, 0.8);
+    color: #fff;
+    background-color: rgb(77, 71, 161);
+    margin-top: 30px;
+}
+
+.container__button button:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+    left: 3px
+}
+
+.container__button input {
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    text-align: none;
+    font-size: 30px;
+    text-align: left;
+}
