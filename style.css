@@ -80,3 +80,14 @@
     font-size: 30px;
     text-align: left;
 }
+
+.text-area__hasil {
+    border: 2px solid rgb(148, 133, 133);
+    border-style: dashed;
+    padding: 10px;
+}
+
+.text-area__hasil p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
